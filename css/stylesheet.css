@@ -1,0 +1,47 @@
+body {
+	background-color: darkslategray;
+}
+
+h1 {
+	font-family: 'Azeret Mono', monospace;
+	font-weight: 600;
+	color: lavenderblush;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Azeret Mono', monospace;
+	font-weight: 300;
+	color: lavenderblush;
+	text-align: center;
+	font-size: 14px;
+}
+
+a {
+	font-family: 'Azeret Mono', monospace;
+	font-weight: 300;
+	color: darkslategray;
+	text-align: center;
+	font-size: 12px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container-1 {
+	display: flex;
+	justify-content: center;
+}
+
+.container-1 div {
+	border: 3px #ccc solid;
+	border-color: salmon;
+	padding: 10px;
+	background-color: moccasin;
+}
+
+.weeks {
+	flex-basis: 20%;
+	height: 50%;
+}
