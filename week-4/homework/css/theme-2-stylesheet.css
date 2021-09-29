@@ -1,0 +1,91 @@
+:root {
+	--rose: rgb(193, 145, 161);
+	--stone-blue: rgb(73, 106, 129);
+	--sand: rgb(179, 175, 143);
+	--mud: rgb(51, 38, 29);
+	--forest-green: rgb(1, 32, 15);
+}
+
+body {
+	background-color: var(--sand);
+}
+
+.bg-jumbo {
+	background-image: url(../images/jumbotron.jpg);
+	background-repeat: no-repeat;
+	height: 50vh;
+	margin-top: 3%;
+}
+
+.jumbo-type {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	color: var(--sand);
+}
+
+.bg-light {
+	background-color: var(--mud) !important; 
+}
+
+.navbar-brand {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: var(--rose) !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: var(--rose) !important;
+}
+
+.article-header {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 75px;
+	color: var(--mud);
+	margin-top: 3%;
+}
+
+.article-subhead {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	color: var(--stone-blue);
+	margin-bottom: 2%;
+}
+
+.paragraph-lead {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--stone-blue);
+	margin-bottom: 2%;
+}
+.paragraph {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: var(--mud);
+}
+
+.card-body {
+	background-color: var(--forest-green) !important;
+}
+
+.card-title {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: var(--rose);
+}
+
+.card-text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--rose);
+}

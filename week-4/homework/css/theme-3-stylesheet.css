@@ -1,0 +1,91 @@
+:root {
+	--burgundy: rgb(45, 8, 10);
+	--rust: rgb(124, 54, 38);
+	--suede: rgb(153, 144, 125);
+	--slate: rgb(56, 66, 59);
+	--lime: rgb(245, 255, 144);
+}
+
+body {
+	background-color: var(--lime);
+}
+
+.bg-jumbo {
+	background-image: url(../images/jumbotron.jpg);
+	background-repeat: no-repeat;
+	height: 50vh;
+	margin-top: 3%;
+}
+
+.jumbo-type {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	color: var(--lime);
+}
+
+.bg-light {
+	background-color: var(--slate) !important; 
+}
+
+.navbar-brand {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: var(--suede) !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: var(--suede) !important;
+}
+
+.article-header {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+	font-size: 75px;
+	color: var(--rust);
+	margin-top: 3%;
+}
+
+.article-subhead {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 35px;
+	color: var(--burgundy);
+	margin-bottom: 2%;
+}
+
+.paragraph-lead {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--burgundy);
+	margin-bottom: 2%;
+}
+.paragraph {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: var(--burgundy);
+}
+
+.card-body {
+	background-color: var(--slate) !important;
+}
+
+.card-title {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: var(--lime);
+}
+
+.card-text {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--lime);
+}
