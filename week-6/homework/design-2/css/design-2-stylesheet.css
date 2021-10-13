@@ -1,0 +1,104 @@
+:root {
+	--darkgreen: rgb(51, 65, 57);
+	--olive: rgb(132, 137, 74);
+	--taupe: rgb(119, 82, 83);
+	--lightgray: rgb(205, 214, 221);
+	--bluegray: rgb(147, 163, 177);
+}
+
+/* NAV */
+.navbar-brand {
+	font-family: 'Gelasio', serif;
+  font-weight: 1400;
+	font-size: 32px;
+	color: var(--darkgreen) !important;
+}
+
+ .navbar-light .navbar-nav .nav-link {
+	font-family: 'Gelasio', serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: var(--darkgreen) !important;
+}
+
+.bg-light {
+	background-color: var(--bluegray) !important; 
+}
+
+/* HOME */
+
+.bg-jumbo {
+	background-image: url(../images/01-jumbotron.jpg);
+	background-repeat: no-repeat;
+	height: 70vh;
+	margin-top: 3%;
+}
+
+.home-portrait {
+	width: 100%;
+}
+
+.home-studio {
+	width: 100%;
+}
+
+/* GENERAL */
+
+body {
+	background-color: var(--lightgray);
+}
+
+h1 {
+  font-family: 'Gelasio', serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--taupe) !important;
+}
+
+h2 {
+  font-family: 'Gelasio', serif;
+  font-weight: 1400;
+  font-size: 35px;
+  color: var(--olive) !important;
+}
+
+h3 {
+  font-family: 'Gelasio', serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--olive) !important;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: var(--darkgreen);
+}
+
+/* PRODUCTS PAGE */
+.card-title {
+  font-family: 'Gelasio', serif;
+  font-weight: 1400;
+  font-size: 30px;
+  color: var(--lightgray) !important;
+}
+
+.card-body {
+	background-color: var(--darkgreen) !important;
+}
+
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  color: var(--lightgray);
+}
+
+/* CONTACT PAGE */
+.form-label {
+	font-family: 'Roboto', sans-serif;
+	color: var(--darkgreen);
+}
+
+.btn {
+	font-family: 'Roboto', sans-serif;
+	color: var(--lightgray);
+	background-color: var(--darkgreen);
+}

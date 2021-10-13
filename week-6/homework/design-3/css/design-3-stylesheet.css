@@ -1,0 +1,104 @@
+:root {
+	--offwhite: rgb(238, 240, 242);
+	--sand: rgb(198, 199, 196);
+	--rose: rgb(162, 153, 158);
+	--taupe: rgb(132, 106, 106);
+	--purple: rgb(71, 67, 80);
+}
+
+/* NAV */
+.navbar-brand {
+	font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+	font-size: 32px;
+	color: var(--purple) !important;
+}
+
+ .navbar-light .navbar-nav .nav-link {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: var(--taupe) !important;
+}
+
+.bg-light {
+	background-color: var(--offwhite) !important; 
+}
+
+/* HOME */
+
+.bg-jumbo {
+	background-image: url(../images/01-jumbotron.jpg);
+	background-repeat: no-repeat;
+	height: 70vh;
+	margin-top: 3%;
+}
+
+.home-portrait {
+	width: 100%;
+}
+
+.home-studio {
+	width: 100%;
+}
+
+/* GENERAL */
+
+body {
+	background-color: var(--offwhite);
+}
+
+h1 {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--purple) !important;
+}
+
+h2 {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: var(--taupe) !important;
+}
+
+h3 {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--taupe) !important;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--purple);
+}
+
+/* PRODUCTS PAGE */
+.card-title {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--taupe) !important;
+}
+
+.card-body {
+	background-color: var(--offwhite) !important;
+}
+
+.card-text {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--rose);
+}
+
+/* CONTACT PAGE */
+.form-label {
+	font-family: 'Montserrat', sans-serif;
+	color: var(--taupe);
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	color: var(--lightgray);
+	background-color: var(--rose);
+}

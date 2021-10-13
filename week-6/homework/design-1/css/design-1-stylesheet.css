@@ -1,0 +1,112 @@
+:root {
+	--offblack: rgb(26,26,23);
+	--offwhite: rgb(235,232,206);
+	--blue: rgb(52,39,178);
+	--red: rgb(194,44,40);
+	--yellow: rgb(194,185,40);
+}
+
+/* NAV */
+.navbar-brand {
+	font-family: forma-djr-banner, sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	color: var(--yellow) !important;
+}
+
+ .navbar-light .navbar-nav .nav-link {
+	font-family: forma-djr-banner, sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: var(--yellow) !important;
+}
+
+.bg-light {
+	background-color: var(--offblack) !important; 
+}
+
+/* HOME */
+
+.bg-jumbo {
+	background-image: url(../images/01-jumbotron.jpg);
+	background-repeat: no-repeat;
+	height: 70vh;
+	margin-top: 3%;
+}
+
+.home-portrait {
+	width: 100%;
+}
+
+.home-studio {
+	width: 100%;
+}
+
+/* GENERAL */
+
+body {
+	background-color: var(--offwhite);
+}
+
+h1 {
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--red) !important;
+}
+
+h2 {
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: var(--blue) !important;
+}
+
+h3 {
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: var(--blue) !important;
+}
+
+p {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--offblack);
+}
+
+/* PRODUCTS PAGE */
+.card-title {
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: var(--offwhite) !important;
+}
+
+.card-body {
+	background-color: var(--red) !important;
+}
+
+.card-text {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--offwhite);
+}
+
+/* CONTACT PAGE */
+.form-label {
+	font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color: var(--offblack);
+}
+
+.btn {
+	font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color: var(--offblack);
+	background-color: var(--yellow);
+}
