@@ -1,0 +1,112 @@
+:root {
+  --offwhite: rgb(238, 240, 242);
+  --sand: rgb(198, 199, 196);
+  --rose: rgb(162, 153, 158);
+  --taupe: rgb(132, 106, 106);
+  --purple: rgb(71, 67, 80);
+}
+
+/* NAV */
+.navbar-brand {
+	font-family: forma-djr-banner, sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	color: var(--purple) !important;
+}
+
+ .navbar-light .navbar-nav .nav-link {
+	font-family: forma-djr-banner, sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: var(--taupe) !important;
+}
+
+.bg-light {
+	background-color: var(--sand) !important; 
+}
+
+/* HOME */
+
+.bg-jumbo {
+	background-image: url(../images/01-jumbotron.jpg);
+	background-repeat: no-repeat;
+	height: 70vh;
+	margin-top: 3%;
+}
+
+.home-portrait {
+	width: 100%;
+}
+
+.home-studio {
+	width: 100%;
+}
+
+/* GENERAL */
+
+body {
+	background-color: var(--sand);
+}
+
+h1 {
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--purple) !important;
+}
+
+h2 {
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: var(--taupe) !important;
+}
+
+h3 {
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: var(--rose) !important;
+}
+
+p {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--purple);
+}
+
+/* PRODUCTS PAGE */
+.card-title {
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: var(--offwhite) !important;
+}
+
+.card-body {
+	background-color: var(--red) !important;
+}
+
+.card-text {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--offwhite);
+}
+
+/* CONTACT PAGE */
+.form-label {
+	font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color: var(--offblack);
+}
+
+.btn {
+	font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color: var(--offblack);
+	background-color: var(--yellow);
+}
