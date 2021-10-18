@@ -90,25 +90,43 @@ p {
   color: var(--purple);
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 /* PRODUCTS PAGE */
 .card-title {
   font-family: forma-djr-banner, sans-serif;
   font-weight: 300;
   font-size: 30px;
-  color: var(--offwhite) !important;
+  color: var(--rose) !important;
 }
 
 .card-body {
-	background-color: var(--red) !important;
+	background-color: var(--offwhite) !important;
 }
 
 .card-text {
   font-family: franklin-gothic-urw, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: var(--offwhite);
+  color: var(--purple);
+}
+.mugs {
+  color: var(--rose) !important; 
 }
 
+.plates-bowls {
+  color: var(--rose) !important; 
+}
+
+.vases {
+  color: var(--rose) !important; 
+}
 /* CONTACT PAGE */
 .form-label {
 	font-family: franklin-gothic-urw, sans-serif;
