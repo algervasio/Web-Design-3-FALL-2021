@@ -127,6 +127,20 @@ li {
 .vases {
   color: var(--rose) !important; 
 }
+
+.modal-title {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--purple);
+}
+
+.btn-close {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--purple);
+}
 /* CONTACT PAGE */
 .form-label {
 	font-family: franklin-gothic-urw, sans-serif;
@@ -137,8 +151,16 @@ li {
 
 .btn {
 	font-family: franklin-gothic-urw, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-	color: var(--offblack);
-	background-color: var(--yellow);
+  font-weight: 400;
+  font-style: normal;
+	color: var(--purple);
+	background-color: var(--offwhite);
+}
+
+.btn:hover {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--offwhite);
+  background-color: var(--purple);
 }

@@ -14,7 +14,7 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../css/design-1-stylesheet.css">
 
-    <title>Products Page Layout</title>
+    <title>Products: Vases</title>
   </head>
   <body>
 
@@ -50,11 +50,30 @@
 
     <main class="container">
       <h1>our products</h1>
+      <!-- Button trigger modal -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        click me for a surprise!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">you got free shipping!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn">claim code</button>
+              </div>
+            </div>
+          </div>
+        </div>
       <section class="row">
         <ul class="row">
         <li class="col-4"><a href="products.html"><h2>vases</h2></a></li>
         <li class="col-4"><a href="mugs.html"><h2 class="mugs">mugs & tea sets</h2></a></li>
-        <li class="col-4"><a href="plates-bowls.html"><h2 class="plates-bowls">plates & bowls</h2></a></li>
+        <li class="col-4"><a href="plates-bowls.html"><h2 class="plates-bowls">bowls</h2></a></li>
       </ul>
         <!--THIS WILL BE A PRODUCT IMG, NAME, PRICE-->
         <div class="col-12 col-md-6 col-lg-3">
