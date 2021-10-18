@@ -25,6 +25,20 @@
 	background-color: var(--sand) !important; 
 }
 
+.bi-cart-fill {
+  color: var(--purple);
+}
+
+#counter{
+      background:white;
+      width:40px;
+      height:40px;
+      text-align:center;
+      border-radius:50%;
+      border:none;
+      transition:0.2s;
+  }
+
 /* HOME */
 
 .bg-jumbo {
