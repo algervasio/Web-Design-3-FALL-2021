@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transformations & Transitions</title>
+	<style type="text/css">
+		/*TRANSFORMATIONS*/
+		section {
+			position: relative;
+			height: 500px;
+			width: 500px;
+		}
+		section div {
+			width: 300px;
+			height: 300px;
+			position: absolute;
+		}
+
+		.translate div {
+			background-color: rgba(10,100,180,0.4);
+		}
+
+		.translate .transformed {
+			transform: translate(100px,50%);
+		}
+
+		.rotate div {
+			background-color: rgba(233,123,209,0.4);
+		}
+
+		.rotate .transformed {
+			transform: rotate(30deg);
+		}
+
+		.scale div {
+			background-color: rgba(10,180,100,.4)
+		}
+		.scale .transformed {
+			transform: scale(0.5);
+		}
+
+		/* TRANSITIONS */
+
+		header {
+			margin-bottom: 30px;
+		}
+
+		nav div {
+			padding: 10px 20px;
+			display: inline-block;
+			border-bottom: 2px solid transparent;
+			transition: background-color 3s; border-bottom 5s;
+		}
+
+		nav div:hover {
+			background-color: rgb(121,259,183);
+			border-bottom: 2px solid rgb(20,110,8);
+		}
+	</style>
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div>Nav Item</div>
+		</nav>
+	</header>
+	<main>
+		<section class="translate">
+			<div class="original">Translate Original</div>
+			<div class="transformed">Translate Transformed</div>
+		</section>
+
+		<section class="rotate">
+			<div class="original">Rotate Original</div>
+			<div class="transformed">Rotate Transformed</div>
+		</section>
+
+		<section class="scale">
+			<div class="original">Scale Original</div>
+			<div class="transformed">Scale Transformed</div>
+		</section>
+	</main>
+	<footer></footer>
+
+</body>
+</html>
