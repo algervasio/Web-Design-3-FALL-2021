@@ -1,0 +1,50 @@
+nav {
+	height: 76px;
+	background: linear-gradient(#debc7c,#e777b8 65%,#8370c5);
+	background-repeat: no-repeat;
+}
+
+nav div {
+	padding: 10px 20px;
+	display: inline-block;
+	transition: background-color 2s;
+}
+
+nav div:hover {
+	background-color: white;
+}
+
+h3 {
+	font-size: 18px;
+	font-family: helvetica;
+}
+
+.container-1 {
+	display: flex;
+	justify-content: center;
+}
+
+.container-1 div {
+	border: 1px;
+	padding: 10px;
+}
+
+.container-2 {
+	display: flex;
+	justify-content: center;
+}
+
+.container-2 div {
+	border: 1px;
+	padding: 10px;
+}
+
+.scale:hover {
+	transform: scale(0.5);
+	transition: 3s;
+}
+
+.rotate:hover {
+	transform: rotate(180deg);
+	transition: 3s;
+}
