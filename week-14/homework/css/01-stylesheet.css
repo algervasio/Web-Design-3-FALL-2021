@@ -1,0 +1,71 @@
+:root {
+	--eggshell: rgb(244, 236, 211);
+	--gold: rgb(193,157,58);
+	--lilac: rgb(161, 150, 234);
+	--deep-purple: rgb(76, 50, 204);
+}
+body {
+	background-color: var(--eggshell);
+}
+
+div.deep-purple {
+	background-color: var(--deep-purple) !important;
+	height:40vh;
+}
+
+div.lilac {
+	background-color: var(--lilac) !important;
+	height:40vh;
+}
+
+div.gold {
+	background-color: var(--gold) !important;
+	height:40vh;
+}
+
+/* NAV */
+.navbar-brand {
+	font-family: 'Karla', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	color: var(--deep-purple) !important;
+}
+
+ .navbar-light .navbar-nav .nav-link {
+	font-family: 'Karla', sans-serif;
+	font-weight: 200;
+	font-size: 24px;
+	color: var(--lilac) !important;
+}
+
+.bg-light {
+	background-color: var(--eggshell) !important; 
+}
+
+h1 {
+	font-family: 'Karla', sans-serif;
+	font-weight: 400;
+	font-size: 55px;
+	color: var(--deep-purple) !important;
+}
+
+h2 {
+	font-family: 'Karla', sans-serif;
+	font-weight: 200;
+	font-size: 32px;
+	color: var(--deep-purple) !important;
+}
+
+h3 {
+	font-family: 'Karla', sans-serif;
+	font-weight: 200;
+	font-size: 26px;
+	color: var(--gold) !important;
+}
+
+p {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 200;
+	font-size: 13px;
+	color: var(--deep-purple) !important;
+}
