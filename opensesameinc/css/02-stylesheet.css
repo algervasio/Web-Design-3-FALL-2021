@@ -1,0 +1,70 @@
+:root {
+	--light-green: rgb(236, 244, 211);
+	--forest-green: rgb(50,119,78);
+	--pink: rgb(216, 154, 216);
+	--deep-purple: rgb(90, 64, 96);
+}
+body {
+	background-color: var(--light-green);
+}
+
+div.deep-purple {
+	background-color: var(--deep-purple) !important;
+	height:40vh;
+}
+
+div.forest-green {
+	background-color: var(--forest-green) !important;
+	height:40vh;
+}
+
+div.pink {
+	background-color: var(--pink) !important;
+	height:40vh;
+}
+
+/* NAV */
+.navbar-brand {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 32px;
+	color: var(--forest-green) !important;
+}
+
+ .navbar-light .navbar-nav .nav-link {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: var(--pink) !important;
+}
+
+.bg-light {
+	background-color: var(--light-green) !important; 
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 55px;
+	color: var(--forest-green) !important;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-size: 32px;
+	color: var(--forest-green) !important;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-size: 26px;
+	color: var(--forest-green) !important;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: var(--deep-purple) !important;
+}

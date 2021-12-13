@@ -1,0 +1,70 @@
+:root {
+	--cream: rgb(247, 232, 203);
+	--blue: rgb(60,103,188);
+	--rust: rgb(196,102,65);
+	--gold: rgb(186, 148, 42);
+}
+body {
+	background-color: var(--cream);
+}
+
+div.blue {
+	background-color: var(--blue) !important;
+	height:40vh;
+}
+
+div.rust {
+	background-color: var(--rust) !important;
+	height:40vh;
+}
+
+div.gold {
+	background-color: var(--gold) !important;
+	height:40vh;
+}
+
+/* NAV */
+.navbar-brand {
+	font-family: 'Unica One', cursive;
+	font-weight: 500;
+	font-size: 32px;
+	color: var(--blue) !important;
+}
+
+ .navbar-light .navbar-nav .nav-link {
+	font-family: 'Unica One', cursive;
+	font-weight: 500;
+	font-size: 24px;
+	color: var(--rust) !important;
+}
+
+.bg-light {
+	background-color: var(--cream) !important; 
+}
+
+h1 {
+	font-family: 'Unica One', cursive;
+	font-weight: 400;
+	font-size: 55px;
+	color: var(--blue) !important;
+}
+
+h2 {
+	font-family: 'Crimson Pro', serif;
+	font-weight: 200;
+	font-size: 32px;
+	color: var(--blue) !important;
+}
+
+h3 {
+	font-family: 'Crimson Pro', serif;
+	font-weight: 200;
+	font-size: 26px;
+	color: var(--gold) !important;
+}
+
+p {
+	font-family: 'Crimson Pro', serif;
+	font-size: 17px;
+	color: var(--rust) !important;
+}
