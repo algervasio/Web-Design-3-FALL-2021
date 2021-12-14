@@ -24,17 +24,11 @@ div.gold {
 }
 
 /* NAV */
-.navbar-brand {
-	font-family: 'Karla', sans-serif;
-	font-weight: 400;
-	font-size: 32px;
-	color: var(--deep-purple) !important;
-}
 
  .navbar-light .navbar-nav .nav-link {
 	font-family: 'Karla', sans-serif;
-	font-weight: 200;
-	font-size: 24px;
+	font-weight: 400;
+	font-size: 28px;
 	color: var(--lilac) !important;
 }
 
@@ -42,10 +36,14 @@ div.gold {
 	background-color: var(--eggshell) !important; 
 }
 
+.navbar-toggler {
+	 border-color: var(--lilac) !important;
+}
+
 h1 {
 	font-family: 'Karla', sans-serif;
 	font-weight: 400;
-	font-size: 55px;
+	font-size:40px;
 	color: var(--deep-purple) !important;
 }
 
@@ -65,7 +63,37 @@ h3 {
 
 p {
 	font-family: 'Rubik', sans-serif;
-	font-weight: 200;
-	font-size: 13px;
+	font-size: 18px;
 	color: var(--deep-purple) !important;
 }
+
+hr {
+	background-color: none;
+}
+
+.img-fluid {
+	margin-bottom: 15px;
+}
+
+.btn {
+	background-color: var(--deep-purple);
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	color: var(--eggshell) !important;
+	margin-bottom: 10px;
+}
+
+.btn:hover {
+	background-color: var(--lilac);
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	color: var(--eggshell) !important;
+	margin-bottom: 10px;
+}
+
+.form-label {
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	color: var(--deep-purple) !important;
+}
+
